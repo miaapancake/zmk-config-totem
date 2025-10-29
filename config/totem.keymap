@@ -126,7 +126,7 @@
 
             bindings = <
        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp QUESTION  &kp SQT     &kp DQT
-       &trans    &trans  &trans    &trans    &trans       &kp C_MUTE    &kp COLON     &trans        &trans      &trans
+       &trans    &trans  &trans    &trans    &trans       &kp C_MUTE    &kp COLON     &arrow        &trans      &trans
 &mo 3  &trans    &trans  &trans    &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT  &kp BSLH  &trans
                          &trans    &trans    &trans       &trans        &kp C_PP      &trans
             >;
