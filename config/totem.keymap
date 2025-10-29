@@ -28,22 +28,17 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
 
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
+        enterright {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17 18>;
+        };
+
+        enterleft {
+            bindings = <&kp ENTER>;
+            key-positions = <11 12 13>;
         };
     };
 
@@ -69,10 +64,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp Q  &kp W       &kp F        &kp P        &kp G        &kp J    &kp L        &kp U        &kp Y       &kp SEMI
-              &kp A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D        &kp H    &mt RSHFT N  &mt RCTRL E  &mt RALT I  &kp O
-&kp LEFT_GUI  &kp Z  &kp X       &kp C        &kp V        &kp B        &kp K    &kp M        &kp COMMA    &kp DOT     &kp FSLH  &kp BSLH
-                                 &kp DEL      &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 ESC    &kp BSPC
+              &kp Q  &kp W       &kp F        &kp P        &kp G        &kp J      &kp L        &kp U        &kp Y       &kp SEMI
+              &kp A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D        &kp H      &mt RSHFT N  &mt RCTRL E  &mt RALT I  &kp O
+&kp LEFT_GUI  &kp Z  &kp X       &kp C        &kp V        &kp B        &kp K      &kp M        &kp COMMA    &kp DOT     &kp FSLH  &kp BSLH
+                                 &kp DEL      &lt 1 TAB    &kp SPACE    &kp SPACE  &lt 2 ESC    &kp BSPC
             >;
         };
 
