@@ -28,14 +28,17 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
 
-    macros {
-        arrow: arrow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS &kp GT>;
-            label = "ARROW";
+        escape-lefty {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+        };
+
+        layer3-toggle {
+            bindings = <&mo 3>;
+            key-positions = <33 36>;
         };
     };
 
@@ -64,7 +67,7 @@
               &kp Q  &kp W       &kp F        &kp P        &kp G        &kp J      &kp L        &kp U        &kp Y       &kp SEMI
               &kp A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D        &kp H      &mt RSHFT N  &mt RCTRL E  &mt RALT I  &kp O
 &kp LEFT_GUI  &kp Z  &kp X       &kp C        &kp V        &kp B        &kp K      &kp M        &kp COMMA    &kp DOT     &kp FSLH  &kp BSLH
-                                 &kp DEL      &lt 1 TAB    &kp SPACE    &kp ENTER  &lt 2 ESC    &kp BSPC
+                                 &kp DEL      &lt 1 TAB    &kp SPACE    &kp ENTER  &lt 2 TAB    &kp BSPC
             >;
         };
 
@@ -113,10 +116,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp QUESTION  &kp SQT     &kp DQT
-       &trans    &trans  &trans    &trans    &trans       &kp C_MUTE    &kp COLON     &arrow        &trans      &trans
-&mo 3  &trans    &trans  &trans    &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT  &kp BSLH  &trans
-                         &trans    &trans    &trans       &trans        &kp C_PP      &trans
+        &trans     &trans     &trans        &kp GRAVE            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp SINGLE_QUOTE               &trans      &trans      &trans
+        &kp ASTRK  &kp EQUAL  &kp QUESTION  &mt LEFT_SHIFT AMPS  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RIGHT_SHIFT DOUBLE_QUOTES  &kp EXCL    &trans      &trans
+&trans  &trans     &trans     &trans        &kp LESS_THAN        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp GREATER_THAN               &kp C_PREV  &kp C_NEXT  &kp BSLH  &trans
+                              &trans        &trans               &trans                  &trans                 &kp C_PP                       &trans
             >;
         };
 
