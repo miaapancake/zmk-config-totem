@@ -116,7 +116,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans     &kp AT_SIGN  &kp DOLLAR     &kp GRAVE            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp SINGLE_QUOTE               &kp PERCENT  &kp CARET  &trans
+        &kp HASH   &kp AT_SIGN  &kp DOLLAR     &kp GRAVE            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp SINGLE_QUOTE               &kp PERCENT  &kp CARET  &kp COLON
         &kp ASTRK  &kp EQUAL    &kp QUESTION   &mt LEFT_SHIFT AMPS  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RIGHT_SHIFT DOUBLE_QUOTES  &kp EXCL     &kp MINUS  &kp PERIOD
 &trans  &trans     &kp PIPE     &kp BACKSLASH  &kp LESS_THAN        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp GREATER_THAN               &kp FSLH     &kp PLUS   &trans      &trans
                                 &trans         &trans               &trans                  &trans                 &trans                         &trans
