@@ -32,8 +32,8 @@
         compatible = "zmk,combos";
 
         layer3-toggle {
-            bindings = <&mo 3>;
-            key-positions = <33 36>;
+            bindings = <&tog 3>;
+            key-positions = <37 32>;
         };
 
         gaming {
