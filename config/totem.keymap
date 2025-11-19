@@ -90,10 +90,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &none      &kp UP    &kp EQUAL  &kp C_VOLUME_UP      &kp C_NEXT        &kp N7        &kp N8  &kp N9        &kp KP_PLUS
-        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp C_MUTE           &kp C_PLAY_PAUSE  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP  &kp CAPS  &kp PG_DN  &kp C_VOLUME_DOWN    &kp C_PREVIOUS    &kp NUMBER_1  &kp N2  &kp N3        &kp KP_MULTIPLY  &none
-                              &trans    &trans     &trans               &trans            &kp N0        &trans
+        &kp ESC    &none      &kp UP    &kp EQUAL  &kp C_VOLUME_UP      &kp C_NEXT        &kp N7                    &kp N8                &kp N9                  &kp KP_PLUS
+        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp C_MUTE           &kp C_PLAY_PAUSE  &mt RIGHT_SHIFT NUMBER_4  &mt RIGHT_CONTROL N5  &mt RIGHT_ALT NUMBER_6  &kp KP_MINUS
+&trans  &kp DEL    &kp PG_UP  &kp CAPS  &kp PG_DN  &kp C_VOLUME_DOWN    &kp C_PREVIOUS    &kp NUMBER_1              &kp N2                &kp N3                  &kp KP_MULTIPLY  &none
+                              &trans    &trans     &trans               &trans            &kp N0                    &trans
             >;
         };
 
@@ -116,10 +116,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp HASH   &kp AT_SIGN  &kp DOLLAR     &kp GRAVE            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp SINGLE_QUOTE               &kp PERCENT  &kp CARET  &kp COLON
-        &kp ASTRK  &kp EQUAL    &kp QUESTION   &mt LEFT_SHIFT AMPS  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RIGHT_SHIFT DOUBLE_QUOTES  &kp EXCL     &kp MINUS  &kp PERIOD
-&trans  &trans     &kp PIPE     &kp BACKSLASH  &kp LESS_THAN        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp GREATER_THAN               &kp FSLH     &kp PLUS   &trans      &trans
-                                &trans         &trans               &trans                  &trans                 &trans                         &trans
+        &kp HASH   &kp AT_SIGN        &kp DOLLAR                 &kp GRAVE            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp SINGLE_QUOTE               &kp PERCENT             &kp CARET            &kp COLON
+        &kp ASTRK  &mt LALT ASTERISK  &mt LEFT_CONTROL QUESTION  &mt LEFT_SHIFT AMPS  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt RIGHT_SHIFT DOUBLE_QUOTES  &mt RIGHT_CONTROL EXCL  &mt RIGHT_ALT MINUS  &kp PERIOD
+&trans  &trans     &kp PIPE           &kp BACKSLASH              &kp LESS_THAN        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp GREATER_THAN               &kp FSLH                &kp PLUS             &trans      &trans
+                                      &trans                     &trans               &trans                  &trans                 &trans                         &trans
             >;
         };
 
