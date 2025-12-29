@@ -116,10 +116,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS       &kp LEFT_BRACE        &trans    &trans  &kp RIGHT_BRACE       &kp RIGHT_PARENTHESIS   &kp RIGHT_BRACKET    &kp GREATER_THAN
-        &kp QUESTION   &mt LALT EQUAL    &mt LEFT_CONTROL QUESTION  &mt LEFT_SHIFT GRAVE  &trans    &trans  &mt RIGHT_SHIFT APOS  &mt RIGHT_CONTROL EXCL  &mt RIGHT_ALT MINUS  &kp EXCL
-&trans  &kp HASH       &kp PIPE          &kp CARET                  &kp PERCENT           &trans    &trans  &kp AMPS              &kp DOLLAR              &kp ASTERISK         &kp BACKSLASH     &trans
-                                         &trans                     &trans                &trans    &trans  &trans                &trans
+        &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS       &kp LEFT_BRACE        &trans         &trans  &kp RIGHT_BRACE       &kp RIGHT_PARENTHESIS   &kp RIGHT_BRACKET    &kp GREATER_THAN
+        &kp QUESTION   &mt LALT EQUAL    &mt LEFT_CONTROL QUESTION  &mt LEFT_SHIFT GRAVE  &kp AT_SIGN    &trans  &mt RIGHT_SHIFT APOS  &mt RIGHT_CONTROL EXCL  &mt RIGHT_ALT MINUS  &kp EXCL
+&trans  &kp HASH       &kp PIPE          &kp CARET                  &kp PERCENT           &trans         &trans  &kp AMPS              &kp DOLLAR              &kp ASTERISK         &kp BACKSLASH     &trans
+                                         &trans                     &trans                &trans         &trans  &trans                &trans
             >;
         };
 
