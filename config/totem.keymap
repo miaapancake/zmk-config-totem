@@ -151,8 +151,8 @@
 
         Game {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp R   &kp S   &kp T   &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp Q   &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans
+        &trans  &kp A   &kp S   &kp D   &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
