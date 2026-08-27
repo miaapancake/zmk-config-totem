@@ -151,10 +151,10 @@
 
         Game {
             bindings = <
-        &trans  &kp Q   &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans
-        &trans  &kp A   &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans                  &trans  &trans       &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans                  &trans  &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                        &mt LEFT_ALT BACKSPACE  &trans  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
